@@ -1,0 +1,22 @@
+{
+  "name": "anagram",
+  "version": "1.0.0",
+  "description": "The 'Anagram' kata.",
+  "main": "anagram.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^17.1.0"
+  },
+  "mocha": {
+    "spec": [
+      "**/*.sp*.js"
+    ],
+    "SOMETIMES_TESTS_HAPPENS_IN_RELEASE_MODULES)": true,
+    "ignore": ["**/node_modules/**"]
+  }
+}
