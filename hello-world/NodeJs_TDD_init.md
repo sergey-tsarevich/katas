@@ -3,17 +3,19 @@
 https://www.browserstack.com/guide/top-javascript-testing-frameworks
 ### Select https://mochajs.org [JS Mocha cheat-sheet](TDD_JS_mocha)
 ### Set up CLI:
+```sh
 npm init
 npm install mocha chai --save-dev
-
->> Add to package.json:
+```
+> Add to package.json:
+```json
   "scripts": {
     "test": "mocha"
   },
   "mocha":{
     "spec": [ "**/*.sp*.js"]
   } 
-
+```
 npm test
 
 ### Set up UI for VSCode:
